@@ -1,0 +1,6 @@
+<div class="mb-3">
+    <button class="btn btn-success" (click)="OnSignin()" [disabled]="isAuth">SignIn</button>
+</div>
+<div>
+    <button class="btn btn-danger"(click)="OnSignout()" [disabled]="!isAuth">SignOut</button>
+</div>
